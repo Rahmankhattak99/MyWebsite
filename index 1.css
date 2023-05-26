@@ -1,0 +1,285 @@
+/* --------------------------------------------NVAIGATION-BAR-------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.first-section::before {
+    background: url(./image/2.jpg) no-repeat center/cover;
+    content: "";
+    height: 550PX;
+    width: 100%;
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.first-section {
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+nav img {
+    width: 150px;
+    height: 100px;
+    margin-top: -40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: black;
+    height: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav .div-a a {
+    padding: 15px 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    background-color: rgb(226, 16, 16, 0.4);
+    color: aliceblue;
+    border: 2px solid wheat;
+    font-size: 20px;
+    margin-top: -20px;
+    transition: 1s;
+}
+
+nav .div-a a:hover {
+    letter-spacing: 2px;
+    background-color: red;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.navigation-bar h1 {
+    margin-top: 200px;
+    font-size: 80px;
+    display: flex;
+    justify-content: left;
+    padding: 0px 50px;
+    font-family: 'Lilita One', cursive;
+    color: #fbf8f8;
+}
+
+/* -----------------------------------------------CARD-1------------------------------------------------ */
+.card-1 {
+    width: 400px;
+    color: rgb(254, 251, 251);
+    background-color: rgba(132, 100, 100, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.card-1 img {
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-1 .text-1 h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.card-1 p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.all-card-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-text {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    padding-top: 100px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    color: #fbf8f8;
+}
+
+.image-text img{
+    width: 600px;
+    height: 400px;
+}
+
+.image-text .all-heading {
+    padding-left: 40px;
+}
+
+.image-text .all-heading h1 {
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+
+.image-text .all-heading p {
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.image-text .all-heading-button {
+    text-decoration: none;
+    padding-top: 40px;
+    color: #fbf8f8;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: 2px solid wheat;
+    transition: 1s;
+}
+
+.image-text .all-heading-button:hover {
+    background-color: red;
+    letter-spacing: 2px;
+}
+
+
+.forth-section-text {
+    margin-left: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 70px;
+    filter: drop-shadow(10px 10px 0px rgb(120, 119, 119));
+    margin-bottom: 50px;
+}
+
+.forth-section-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.all-image{
+    width: 100%;
+    overflow: hidden;
+    filter: brightness(50%);
+}
+
+.imaging img{
+    transition: 1s;
+    max-width: 600px;
+}
+
+.imaging img:hover {
+    background-color: rgba(236, 5, 5, 0.3);
+    transform: scale(1.2);
+}
+
+
+.red {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(246, 250, 250);
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.forth-section-card {
+    width: 400px;
+    display: flex;
+    overflow: hidden;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fbf8f8;
+}
+
+.forth-section-card img {
+    width: 100PX;
+    height: 100PX;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+.forth-section-all-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer h1 {
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 50px;
+    color: #fbf8f8;
+    margin-bottom: 50px;
+}
+
+.footer .footer-link {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-link a {
+    text-decoration: none;
+    color: #f7f5f5;
+    margin: 0px 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.footer .footer-link a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.footer .footer-last-heading p {
+    color: #f7f5f5;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .footer-last-heading span {
+    color: red;
+}
+
+.footer .footer-last-heading span:hover {
+    color: wheat;
+}
